@@ -49,7 +49,7 @@ mv ccloud.auto.tfvars.example ccloud.auto.tfvars
 +
 [source,bash]
 ----
-bootstrap_server = "<CCLOUD_BOOTSTRA_SERVER>"
+bootstrap_server = "<CCLOUD_BOOTSTRAP_SERVER>"
 cluster_api_key = "<CCLOUD_API_KEY>"
 cluster_api_secret = "<CCLOUD_API_SECRET>"
 
