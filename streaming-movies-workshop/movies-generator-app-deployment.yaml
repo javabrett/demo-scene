@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: movies-generator
-          image: docker.io/gamussa/movies-generator
+          image: docker.io/javabrett/movies-generator
           env:
             - name: SPRING_CONFIG_LOCATION
               value: /mnt/app/application.properties

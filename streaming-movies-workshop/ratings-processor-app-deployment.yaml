@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: ratings-processor
-          image: docker.io/gamussa/ratings-processor
+          image: docker.io/javabrett/ratings-processor
           ports:
             - containerPort: 8080
           env:
